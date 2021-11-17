@@ -1,26 +1,10 @@
-import img1 from './images/image 2.png';
-import img2 from './images/Rectangle 15.png';
-import img3 from './images/1.png';
+import img2 from '../images/Rectangle 15.png';
 import { Link } from "react-router-dom";
+import "../Articles/articles.scss"
 
-
-
-const Home = () => {
+const Articles = () => {
     return ( 
-     <div className="article">
-            <img src={img1} />
-            <h1>A few words about this blog 
-                <br/>platform, Ghost, and how this 
-                <br/>site was made
-            </h1>
-            <p>Why Ghost (& Figma) instead of Medium,
-                <br /> WordPress or other options?
-            </p>
-            <div className="line">
-                <hr />
-            </div>
-                <h2>All articles</h2>
-          <div className="container">
+        <div className="container-3">
             <div className="first-column">
               <div className="block">
               <Link to="/аrticle"><img src={img2}/></Link>
@@ -122,33 +106,8 @@ const Home = () => {
               </div>
             </div>
         </div>
-       <div className="wrap">
-          <div className="container-1">
-            <a href="#">Digital product design</a>
-            <a href="#">Remote work</a>
-            <a href="#">UX design</a>
-            <a href="#">Distributed teams</a>
-            <a href="#">Creativity </a>
-            <a href="#">Strategy</a>
-            <a href="#">Suspense</a>
-            <a href="#">Growth</a>
-          </div>
-        </div>
-      <div className="info">
-           <img className="last-photo" src={img3}/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis eu 
-             <br/>velit tempus erat egestas efficitur. In hac habitasse 
-             <br/>platea dictumst.  Fusce a nunc eget ligula suscipit finibus.</p>
-           <div className="social-media">
-              <a href="#">Twitter</a>
-              <a href="#">LinkedIn</a>
-              <a href="#">RSS</a>
-              <p>© 2012–2020 Nordic Rose Co. 
-              <br/>All rights reserved. </p>
-           </div>
-       </div>
-    </div>
+
      );
 }
  
-export default Home;
+export default Articles;
