@@ -4,7 +4,7 @@ import "../Header/Header.scss"
 const Header = () => {
     return (
         <div className="container-2">
-            <img src={img1} />
+            <img src={img1} className="photo-4" />
                 <h1>A few words about this blog 
                     <br/>platform, Ghost, and how this 
                     <br/>site was made

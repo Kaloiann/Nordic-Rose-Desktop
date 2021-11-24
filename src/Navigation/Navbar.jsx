@@ -4,7 +4,8 @@ import  "../Navigation/nav.scss";
 
 const Navbar = () => {
     return (
-        <div className="container"> 
+        <section>
+            <div className="container"> 
             <Link to="/"><img className="logo" src={img1}/></Link>
             <nav className="navbar">
                 
@@ -15,6 +16,7 @@ const Navbar = () => {
                 
             </nav>
         </div>
+        </section>
      );
 }
  

@@ -6,7 +6,7 @@ import Links from './Links';
 import About from './About';
 import Blog from './Blog';
 import Project from './Project';
-import Article from './Article';
+import Article from '../src/Article';
 
 
 function App() {

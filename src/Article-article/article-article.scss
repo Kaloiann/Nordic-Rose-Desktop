@@ -1,0 +1,140 @@
+.container-6{
+    max-width: 100%;
+    width: 640px;
+    padding-top: 32px;
+    margin: auto;
+    .profile{
+        display: flex;
+        justify-content: space-between;
+        .info{
+            display: flex;
+            text-align: start;
+            align-items: center;
+            .profile-photo{
+                border-radius: 50%;
+            }
+            p{
+                margin-left: 15px;
+            }
+        }
+    .social-media{
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        height: 44px;
+        .facebook{
+            margin-right: 50px;
+            padding: 12px 0px 12px 25px;
+        }
+        .twitter{
+            padding: 12px 25px 12px 0;
+        }
+    }
+    }
+    .text{
+        text-align: start;
+        padding-top: 58px;
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 170%;
+            color: #000000;
+        }
+        h1{
+            padding-top: 57px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 160%;
+            color: #000000;
+        }
+    }
+    .text-2{
+
+        .photo-2{
+            padding-top: 52px;
+            // margin: auto;
+            max-width: 100%;
+            
+        }
+        .after-image{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+        }
+        p{
+            padding-top: 52px;
+            text-align: start;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 170%;
+            color: #000000;
+
+        }
+        ul{
+            padding-top: 52px;
+            font-size: 20px;
+            text-align: start;
+        }
+        li{
+            padding-top: 19px;
+            text-align: start;
+            font-size: 20px;
+        }
+    }
+    .profile-2{
+        .social-media2{
+            margin-top: 77px;
+            display: flex;
+            align-items: center;
+            
+            border: 1px solid #EAEAEA;
+            box-sizing: border-box;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            height: 64px;
+            .social-button {
+               width: 50%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               p{
+                   margin-left: 15px;
+               }
+            }
+            
+        }
+    }
+    .tags{
+        padding-top: 32px;
+        text-align: start;
+        a{
+            color: #0C0C0C;
+        }
+    }
+    .profile-3{
+        display: flex;
+        padding-top: 36px;
+        p{
+            text-align: start;
+            margin-left: 25px;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.05em;
+            
+
+        }
+        .profile-photo2{
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+        }
+    }
+}
